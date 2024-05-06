@@ -1,0 +1,9 @@
+Package: org.coolstar.metrolockscreen
+Name: MetroLockScreen
+Depends: mobilesubstrate
+Version: 0.0.2
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: CoolStar
+Author: CoolStar
+Section: Tweaks

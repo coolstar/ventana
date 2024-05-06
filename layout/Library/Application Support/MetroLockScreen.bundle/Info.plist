@@ -1,0 +1,6 @@
+{
+    CFBundleIdentifier = "org.coolstar.metrolockscreen";
+    CFBundleInfoDictionaryVersion = 6.0;
+    CFBundlePackageType = APPL;
+    CFBundleSignature = "????";
+}

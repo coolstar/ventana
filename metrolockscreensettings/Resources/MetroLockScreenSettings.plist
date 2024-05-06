@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSTableCell</string>
+			<key>cellClass</key>
+			<string>CSMetroLockScreenLogoCell</string>
+			<key>height</key>
+			<integer>87</integer>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Settings</string>
+		</dict>
+		<dict>
+			<key>alternateColors</key>
+			<true/>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>org.coolstar.metrolockscreen</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>org.coolstar.metrolockscreen</string>
+			<key>key</key>
+			<string>secondsEnabled</string>
+			<key>label</key>
+			<string>Lock Screen Seconds</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>org.coolstar.metrolockscreen</string>
+			<key>key</key>
+			<string>zuluClock</string>
+			<key>label</key>
+			<string>24 Hour Clock</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Grouping Notifications requires using Ventana's Custom Notification Style.</string>
+			<key>id</key>
+			<string>notificationsTitle</string>
+			<key>label</key>
+			<string>Notifications</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>org.coolstar.metrolockscreen</string>
+			<key>id</key>
+			<string>nativeNotifications</string>
+			<key>key</key>
+			<string>nativeNotifications</string>
+			<key>label</key>
+			<string>Use iOS 10+ Notifications</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>org.coolstar.metrolockscreen</string>
+			<key>key</key>
+			<string>groupNotifications</string>
+			<key>label</key>
+			<string>Group Notifications</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>id</key>
+			<string>siriTitle</string>
+			<key>label</key>
+			<string>Siri</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>org.coolstar.metrolockscreen</string>
+			<key>id</key>
+			<string>siriSuggestions</string>
+			<key>key</key>
+			<string>displaySiri</string>
+			<key>label</key>
+			<string>Display Siri Suggestions</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Advanced Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>CSMLSAdvancedSettingsController</string>
+			<key>isController</key>
+			<true/>
+			<key>label</key>
+			<string>Advanced Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Ventana is ©2017 by CoolStar and Jérémy Goulet. All Rights Reserved.</string>
+			<key>label</key>
+			<string>Credits</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>jeremyTwitter:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>/Library/PreferenceBundles/MetroLockScreenSettings.bundle/Twitter.png</string>
+			<key>label</key>
+			<string>Jérémy Goulet (@JeremyGoulet)</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>coolstarTwitter:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>/Library/PreferenceBundles/MetroLockScreenSettings.bundle/Twitter.png</string>
+			<key>label</key>
+			<string>CoolStar (@coolstarorg)</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string></string>
+</dict>
+</plist>
